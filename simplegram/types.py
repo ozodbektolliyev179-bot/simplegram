@@ -18,6 +18,8 @@ class Message:
         self.from_user = User(data["from"]) if data.get("from") else None
         self.chat = Chat(data["chat"]) if data.get("chat") else None
         self.text: str = data.get("text")
+        self.photo: dict = data.get("photo")
+        self.location: dict = data.get("location")
 
 
 class Update:
