@@ -2,8 +2,14 @@ import os
 
 from dotenv import load_dotenv
 
-from simplegram import Updater, Update, Bot, Filters
-from simplegram.handlers import CommandHandler, MessageHandler
+from simplegram import (
+    Updater,
+    Update,
+    Bot,
+    Filters,
+    CommandHandler,
+    MessageHandler,
+)
 
 
 load_dotenv()

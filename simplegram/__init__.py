@@ -1,6 +1,7 @@
 from .types import Update
 from .bot import Bot
 from .updater import Updater
+from .handlers import CommandHandler, MessageHandler
 from .filters import Filters
 
 
@@ -10,4 +11,6 @@ __all__ = [
     "Update",
     "Bot",
     "Filters",
+    "CommandHandler",
+    "MessageHandler",
 ]
